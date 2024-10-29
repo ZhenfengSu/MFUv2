@@ -67,6 +67,7 @@ def main(args):
             prediction = model_inference_ddp(data)
             time_end = time.time()
             time_list.append(time_end - time_begin)
+            torch.cuda.synchronize()
             if i >= 40:
                 break
         time_list = time_list[10:] # 抛弃前10次

@@ -60,7 +60,7 @@ def main_ddp(rank, world_size):
         print("batch_size: " + str(batch_size))
         # 模拟推理的时间测试
         val_sampler = torch.utils.data.distributed.DistributedSampler(my_trainset)
-        val_loader = torch.utils.data.DataLoader(my_trainset, batch_size=batch_size, sampler=val_sampler, shuffle=False, num_workers=4, pin_memory=True)
+        val_loader = torch.utils.data.DataLoader(my_trainset, batch_size=batch_size, sampler=val_sampler, shuffle=False, num_workers=1, pin_memory=True)
         val_loader.sampler.set_epoch(0)
         time_list = []
         with torch.no_grad():
@@ -71,6 +71,7 @@ def main_ddp(rank, world_size):
                         data = data.to(cuda_device, non_blocking=True)
                     data = data.to(input_dtype)
                     prediction = model_inference(data)
+                    torch.cuda.synchronize()
                     if i >= 40:
                         break
                     time_end = time.time()
@@ -82,6 +83,7 @@ def main_ddp(rank, world_size):
                         data = data.to(cuda_device, non_blocking=True)
                     data = data.to(input_dtype)
                     prediction = model_inference(data)
+                    torch.cuda.synchronize()
                     if i >= 40:
                         break
         if rank == 0:
