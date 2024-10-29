@@ -1,0 +1,9 @@
+DDP_EVAL/imagenet_200/
+DDP_EVAL/imagenet_200/val/n01443537/val_611.JPEG
+DDP_EVAL/tiny-imagenet-200/
+DDP_EVAL/tiny-imagenet-200.zip
+DDP_EVAL/tiny-imagenet-200/train/n01443537/images/n01443537_8.JPEG
+MFU/__pycache__/
+MFU4models/data/
+MFU4models/__pycache__/
+MFU4models/output/
