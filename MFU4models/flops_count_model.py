@@ -41,7 +41,10 @@ def model_inference_sim(model, batch_size,data_type=None, device=None):
     # build input
     if data_type is None:
         data_type = 'FP32'
-    input = torch.randn(batch_size, 3, 224, 224, dtype=DATA_TYPE2TORCH[data_type])
+    if data_type == 'INT8':
+        input = torch.randint(0, 2, (batch_size, 3, 224, 224), dtype=DATA_TYPE2TORCH[data_type])
+    else:
+        input = torch.randn(batch_size, 3, 224, 224, dtype=DATA_TYPE2TORCH[data_type])
     model = get_model_quantization(model, data_type)
     # inference
     model.eval()

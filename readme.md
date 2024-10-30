@@ -19,5 +19,7 @@ python main_ddp_spawn.py --plot_mode True --output output_resnet.txt
 ```
 
 其中单卡正常
+
 采用ddp launch的多卡测试非常慢，而且batch_size越大跑越慢
-采用ddp spawn的多卡测试速度正常，但是MFU测试数据异常大，甚至会出现大于一的情况（理论上完全不可能！）
+
+采用ddp spawn的多卡测试速度正常
