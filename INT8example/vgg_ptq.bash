@@ -1,0 +1,1 @@
+python vgg16_ptq.py --ckpt ./vgg16_ckpt/vgg16-397923af.pth

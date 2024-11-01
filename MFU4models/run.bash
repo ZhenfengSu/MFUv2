@@ -11,3 +11,7 @@ python main_ddp_spawn.py --plot_mode True --output output_resnet.txt
 
 python main.py --model-type resnet34 --plot_mode True --output resnet34_info.txt --plot_mode True
 python main.py --model-type resnet50 --plot_mode True --output resnet50_info.txt --plot_mode True
+
+
+
+python main.py --model-type resnet18 --output resnet18_int8_info_eval1.txt --data_type INT8

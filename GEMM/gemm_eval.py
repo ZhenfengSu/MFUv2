@@ -40,18 +40,24 @@ def geeem_sim(batch_size, data_type, device, data_shape_row, data_shape_col):
         torch.backends.cudnn.allow_tf32 = True
     data_shape_col = int(data_shape_col)
     data_shape_row = int(data_shape_row)
-    a = torch.randn(batch_size, data_shape_row).type(typ).to(device)
-    b = torch.randn(data_shape_row, data_shape_col).type(typ).to(device)
-    
-    t = benchmark.Timer(
-        stmt='a @ b',
-        globals={'a': a, 'b': b})
-    # 改为 torch.mul(a, b) 以便测试
+    if data_type == 'INT8':
+        a = torch.randint(0, 2, (batch_size, data_shape_row)).to(device)
+        b = torch.randint(0, 2, (data_shape_row, data_shape_col)).to(device)
+        a = a.to("cpu")
+        b = b.to("cpu")
+    else:
+        a = torch.randn(batch_size, data_shape_row).type(typ).to(device)
+        b = torch.randn(data_shape_row, data_shape_col).type(typ).to(device)
+    breakpoint()
     # t = benchmark.Timer(
-    #     stmt='torch.mm(a, b)',
+    #     stmt='a @ b',
     #     globals={'a': a, 'b': b})
-
-    x = t.timeit(50)
+    # 改为 torch.mul(a, b) 以便测试
+    t = benchmark.Timer(
+        stmt='torch.mm(a, b)',
+        globals={'a': a, 'b': b})
+    x_warm_up = t.timeit(1000)
+    x = t.timeit(10000)
     
     avg_time = x.median
     gemm_FLOPs = 2 * batch_size * data_shape_row * data_shape_col
@@ -66,7 +72,7 @@ def geeem_sim(batch_size, data_type, device, data_shape_row, data_shape_col):
     print("MFU: ", MFU)
     print("FLOPS_shape: ", FLOPS_shape)
     print("data_shape: ", str(data_shape_row)+'x'+str(data_shape_col))
-    time.sleep(1)
+    # time.sleep(1)
     
     return  MFU, FLOPS_shape
 

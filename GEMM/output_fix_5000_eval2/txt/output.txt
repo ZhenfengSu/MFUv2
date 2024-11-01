@@ -1,0 +1,1944 @@
+start
+shape: 512x512
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:00:41
+batch_size:  1
+MFU:  0.001970584672792909
+FLOPS_shape:  0.16277029397269427
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:00:41
+batch_size:  2
+MFU:  0.002283110121591408
+FLOPS_shape:  0.1885848960434503
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:00:41
+batch_size:  4
+MFU:  0.004522661841139375
+FLOPS_shape:  0.3735718680781124
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:00:41
+batch_size:  8
+MFU:  0.007275216360141277
+FLOPS_shape:  0.6009328713476695
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:00:41
+batch_size:  16
+MFU:  0.014739159036522844
+FLOPS_shape:  1.2174545364167868
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:00:41
+batch_size:  32
+MFU:  0.02906167354426343
+FLOPS_shape:  2.400494234756159
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:00:41
+batch_size:  64
+MFU:  0.05716237093984116
+FLOPS_shape:  4.72161183963088
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:00:41
+batch_size:  128
+MFU:  0.11166104042640682
+FLOPS_shape:  9.223201939221202
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:00:41
+batch_size:  256
+MFU:  0.14023881359715612
+FLOPS_shape:  11.583726003125095
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:00:41
+batch_size:  512
+MFU:  0.2815796049454779
+FLOPS_shape:  23.258475368496473
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:00:41
+batch_size:  1024
+MFU:  0.5146415736634786
+FLOPS_shape:  42.50939398460333
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:00:42
+batch_size:  2048
+MFU:  0.6206338461564754
+FLOPS_shape:  51.264355692524866
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:00:42
+batch_size:  4096
+MFU:  0.668462292579262
+FLOPS_shape:  55.21498536704704
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:00:42
+batch_size:  8192
+MFU:  0.693162860317439
+FLOPS_shape:  57.25525226222046
+data_shape:  512x512
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:00:43
+batch_size:  16384
+MFU:  0.6515137331581551
+FLOPS_shape:  53.815034358863606
+data_shape:  512x512
+done
+start
+shape: 768x768
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:00:44
+batch_size:  1
+MFU:  0.0028454268310777377
+FLOPS_shape:  0.23503225624702112
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:00:44
+batch_size:  2
+MFU:  0.004419507474484471
+FLOPS_shape:  0.3650513173924173
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:00:44
+batch_size:  4
+MFU:  0.0063673142050201465
+FLOPS_shape:  0.525940153334664
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:00:44
+batch_size:  8
+MFU:  0.01267076901809858
+FLOPS_shape:  1.0466055208949427
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:00:44
+batch_size:  16
+MFU:  0.024823670202637264
+FLOPS_shape:  2.0504351587378378
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:00:44
+batch_size:  32
+MFU:  0.0496970598444299
+FLOPS_shape:  4.10497714314991
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:00:44
+batch_size:  64
+MFU:  0.09807840712287706
+FLOPS_shape:  8.101276428349644
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:00:44
+batch_size:  128
+MFU:  0.11760377832256587
+FLOPS_shape:  9.71407208944394
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:00:45
+batch_size:  256
+MFU:  0.286317313300617
+FLOPS_shape:  23.649810078630964
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:00:45
+batch_size:  512
+MFU:  0.4481310629468721
+FLOPS_shape:  37.01562579941163
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:00:45
+batch_size:  1024
+MFU:  0.3802095772407808
+FLOPS_shape:  31.40531108008849
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:00:45
+batch_size:  2048
+MFU:  0.5576864414881492
+FLOPS_shape:  46.06490006692112
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:00:46
+batch_size:  4096
+MFU:  0.5609286088570046
+FLOPS_shape:  46.33270309158858
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:00:46
+batch_size:  8192
+MFU:  0.7403743690965047
+FLOPS_shape:  61.154922887371285
+data_shape:  768x768
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:00:48
+batch_size:  16384
+MFU:  0.7077178739588454
+FLOPS_shape:  58.45749638900063
+data_shape:  768x768
+done
+start
+shape: 1024x1024
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:00:49
+batch_size:  1
+MFU:  0.004785587359094835
+FLOPS_shape:  0.3952895158612333
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:00:49
+batch_size:  2
+MFU:  0.005690548760112461
+FLOPS_shape:  0.47003932758528927
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:00:49
+batch_size:  4
+MFU:  0.011377920277720876
+FLOPS_shape:  0.9398162149397442
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:00:49
+batch_size:  8
+MFU:  0.01902801971457993
+FLOPS_shape:  1.571714428424302
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:00:49
+batch_size:  16
+MFU:  0.03779747482952494
+FLOPS_shape:  3.12207142091876
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:00:49
+batch_size:  32
+MFU:  0.07545488392373156
+FLOPS_shape:  6.232573412100226
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:00:50
+batch_size:  64
+MFU:  0.14739743895728677
+FLOPS_shape:  12.175028457871885
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:00:50
+batch_size:  128
+MFU:  0.16300806863041942
+FLOPS_shape:  13.464466468872644
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:00:50
+batch_size:  256
+MFU:  0.3916765362467918
+FLOPS_shape:  32.352481893985
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:00:50
+batch_size:  512
+MFU:  0.6198554782102117
+FLOPS_shape:  51.20006250016348
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:00:50
+batch_size:  1024
+MFU:  0.7044765379357899
+FLOPS_shape:  58.189762033496244
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:00:50
+batch_size:  2048
+MFU:  0.7383171908138889
+FLOPS_shape:  60.98499996122722
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:00:51
+batch_size:  4096
+MFU:  0.7073381883172106
+FLOPS_shape:  58.426134355001594
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:00:53
+batch_size:  8192
+MFU:  0.7576272080806246
+FLOPS_shape:  62.58000738745958
+data_shape:  1024x1024
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:00:56
+batch_size:  16384
+MFU:  0.7127054853702607
+FLOPS_shape:  58.86947309158353
+data_shape:  1024x1024
+done
+start
+shape: 1280x1280
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:00:57
+batch_size:  1
+MFU:  0.006670098814107242
+FLOPS_shape:  0.5509501620452582
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:00:57
+batch_size:  2
+MFU:  0.0064473763517513515
+FLOPS_shape:  0.5325532866546616
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:00:57
+batch_size:  4
+MFU:  0.012827248803848562
+FLOPS_shape:  1.059530751197891
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:00:57
+batch_size:  8
+MFU:  0.02561613829415178
+FLOPS_shape:  2.115893023096937
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:00:57
+batch_size:  16
+MFU:  0.051222053084614784
+FLOPS_shape:  4.230941584789181
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:00:57
+batch_size:  32
+MFU:  0.09913604770834032
+FLOPS_shape:  8.18863754070891
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:00:57
+batch_size:  64
+MFU:  0.1916271407564965
+FLOPS_shape:  15.82840182648661
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:00:57
+batch_size:  128
+MFU:  0.21094215996588903
+FLOPS_shape:  17.42382241318243
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:00:57
+batch_size:  256
+MFU:  0.413614938028173
+FLOPS_shape:  34.16459388112709
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:00:58
+batch_size:  512
+MFU:  0.3848423472587253
+FLOPS_shape:  31.787977883570708
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:00:58
+batch_size:  1024
+MFU:  0.48566750747784027
+FLOPS_shape:  40.116136117669605
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:00:59
+batch_size:  2048
+MFU:  0.6263256549023998
+FLOPS_shape:  51.734499094938215
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:01:00
+batch_size:  4096
+MFU:  0.6137065021021064
+FLOPS_shape:  50.692157073633986
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:01:03
+batch_size:  8192
+MFU:  0.6432942665749865
+FLOPS_shape:  53.13610641909388
+data_shape:  1280x1280
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:01:07
+batch_size:  16384
+MFU:  0.7599191867035021
+FLOPS_shape:  62.76932482170927
+data_shape:  1280x1280
+done
+start
+shape: 1664x1664
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:01:08
+batch_size:  1
+MFU:  0.008170954819622218
+FLOPS_shape:  0.6749208681007952
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:01:08
+batch_size:  2
+MFU:  0.009387254032546883
+FLOPS_shape:  0.7753871830883725
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:01:08
+batch_size:  4
+MFU:  0.018385700355539887
+FLOPS_shape:  1.5186588493675945
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:01:08
+batch_size:  8
+MFU:  0.02944308416554895
+FLOPS_shape:  2.4319987520743434
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:01:08
+batch_size:  16
+MFU:  0.05847106630885761
+FLOPS_shape:  4.829710077111638
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:01:09
+batch_size:  32
+MFU:  0.07124039315512054
+FLOPS_shape:  5.884456474612956
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:01:09
+batch_size:  64
+MFU:  0.14080276819896761
+FLOPS_shape:  11.630308653234724
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:01:09
+batch_size:  128
+MFU:  0.2846263136086475
+FLOPS_shape:  23.51013350407428
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:01:09
+batch_size:  256
+MFU:  0.5485511053466161
+FLOPS_shape:  45.31032130163049
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:01:09
+batch_size:  512
+MFU:  0.6147123012781255
+FLOPS_shape:  50.77523608557316
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:01:10
+batch_size:  1024
+MFU:  0.5867649101575576
+FLOPS_shape:  48.46678157901425
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:01:11
+batch_size:  2048
+MFU:  0.6462959905485915
+FLOPS_shape:  53.384048819313655
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:01:13
+batch_size:  4096
+MFU:  0.630133994318956
+FLOPS_shape:  52.049067930745764
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:01:18
+batch_size:  8192
+MFU:  0.6351304501160701
+FLOPS_shape:  52.461775179587384
+data_shape:  1664x1664
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:01:25
+batch_size:  16384
+MFU:  0.7228894900009445
+FLOPS_shape:  59.71067187407801
+data_shape:  1664x1664
+done
+start
+shape: 1792x1792
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:01:27
+batch_size:  1
+MFU:  0.008806581905771575
+FLOPS_shape:  0.7274236654167321
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:01:27
+batch_size:  2
+MFU:  0.004964499074381231
+FLOPS_shape:  0.41006762354388965
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:01:27
+batch_size:  4
+MFU:  0.016002523263348608
+FLOPS_shape:  1.321808421552595
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:01:27
+batch_size:  8
+MFU:  0.03158380441727008
+FLOPS_shape:  2.6088222448665084
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:01:27
+batch_size:  16
+MFU:  0.06292592987405829
+FLOPS_shape:  5.197681807597214
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:01:27
+batch_size:  32
+MFU:  0.07734136119705042
+FLOPS_shape:  6.3883964348763635
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:01:27
+batch_size:  64
+MFU:  0.15329844524466027
+FLOPS_shape:  12.662451577208937
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:01:28
+batch_size:  128
+MFU:  0.30810556938903627
+FLOPS_shape:  25.449520031534394
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:01:28
+batch_size:  256
+MFU:  0.5932776715639105
+FLOPS_shape:  49.004735671179006
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:01:28
+batch_size:  512
+MFU:  0.66198167461653
+FLOPS_shape:  54.67968632332538
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:01:29
+batch_size:  1024
+MFU:  0.685936705194786
+FLOPS_shape:  56.65837184908932
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:01:30
+batch_size:  2048
+MFU:  0.694493679399592
+FLOPS_shape:  57.36517791840629
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:01:32
+batch_size:  4096
+MFU:  0.6812743771693037
+FLOPS_shape:  56.27326355418448
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:01:37
+batch_size:  8192
+MFU:  0.6822783615813868
+FLOPS_shape:  56.35619266662254
+data_shape:  1792x1792
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:01:45
+batch_size:  16384
+MFU:  0.7810406256680855
+FLOPS_shape:  64.51395568018386
+data_shape:  1792x1792
+done
+start
+shape: 1920x1920
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:01:47
+batch_size:  1
+MFU:  0.007545023137271106
+FLOPS_shape:  0.6232189111385933
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:01:47
+batch_size:  2
+MFU:  0.008390299779406666
+FLOPS_shape:  0.6930387617789906
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:01:47
+batch_size:  4
+MFU:  0.016720563985870854
+FLOPS_shape:  1.3811185852329324
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:01:47
+batch_size:  8
+MFU:  0.03537967723905711
+FLOPS_shape:  2.9223613399461175
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:01:47
+batch_size:  16
+MFU:  0.06981614080844127
+FLOPS_shape:  5.766813230777249
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:01:47
+batch_size:  32
+MFU:  0.1376124086220215
+FLOPS_shape:  11.366784952178977
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:01:47
+batch_size:  64
+MFU:  0.1638212017787058
+FLOPS_shape:  13.531631266921098
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:01:47
+batch_size:  128
+MFU:  0.32663215534886164
+FLOPS_shape:  26.979816031815968
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:01:48
+batch_size:  256
+MFU:  0.47309136463273804
+FLOPS_shape:  39.07734671866416
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:01:48
+batch_size:  512
+MFU:  0.7065548689234487
+FLOPS_shape:  58.36143217307686
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:01:49
+batch_size:  1024
+MFU:  0.7364651177420122
+FLOPS_shape:  60.8320187254902
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:01:50
+batch_size:  2048
+MFU:  0.7174620358202403
+FLOPS_shape:  59.26236415875184
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:01:53
+batch_size:  4096
+MFU:  0.7271711518801675
+FLOPS_shape:  60.06433714530183
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:01:58
+batch_size:  8192
+MFU:  0.7339415780767736
+FLOPS_shape:  60.6235743491415
+data_shape:  1920x1920
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:02:08
+batch_size:  16384
+MFU:  0.7319273719596096
+FLOPS_shape:  60.457200923863745
+data_shape:  1920x1920
+done
+start
+shape: 2048x2048
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:02:09
+batch_size:  1
+MFU:  0.00728324147006761
+FLOPS_shape:  0.6015957454275845
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:02:09
+batch_size:  2
+MFU:  0.009504687943033704
+FLOPS_shape:  0.785087224094584
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:02:09
+batch_size:  4
+MFU:  0.018827466258682576
+FLOPS_shape:  1.5551487129671806
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:02:09
+batch_size:  8
+MFU:  0.038225369597934135
+FLOPS_shape:  3.1574155287893593
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:02:09
+batch_size:  16
+MFU:  0.07560758083218473
+FLOPS_shape:  6.245186176738458
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:02:10
+batch_size:  32
+MFU:  0.14773843759599872
+FLOPS_shape:  12.203194945429493
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:02:10
+batch_size:  64
+MFU:  0.1761751183679723
+FLOPS_shape:  14.552064777194511
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:02:10
+batch_size:  128
+MFU:  0.35058679596877157
+FLOPS_shape:  28.95846934702053
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:02:10
+batch_size:  256
+MFU:  0.6642402099824045
+FLOPS_shape:  54.86624134454661
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:02:11
+batch_size:  512
+MFU:  0.7552617830262124
+FLOPS_shape:  62.38462327796514
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:02:11
+batch_size:  1024
+MFU:  0.6922996801269039
+FLOPS_shape:  57.18395357848226
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:02:13
+batch_size:  2048
+MFU:  0.7907503228856825
+FLOPS_shape:  65.31597667035737
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:02:16
+batch_size:  4096
+MFU:  0.7590385266090993
+FLOPS_shape:  62.6965822979116
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:02:21
+batch_size:  8192
+MFU:  0.7804390511419665
+FLOPS_shape:  64.46426562432643
+data_shape:  2048x2048
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:02:32
+batch_size:  16384
+MFU:  0.7770925265608936
+FLOPS_shape:  64.18784269392981
+data_shape:  2048x2048
+done
+start
+shape: 2240x2240
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:02:33
+batch_size:  1
+MFU:  0.005384204808273824
+FLOPS_shape:  0.4447353171634178
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:02:33
+batch_size:  2
+MFU:  0.009347439104578397
+FLOPS_shape:  0.7720984700381756
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:02:33
+batch_size:  4
+MFU:  0.018676789294325792
+FLOPS_shape:  1.5427027957113104
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:02:34
+batch_size:  8
+MFU:  0.03707493043348647
+FLOPS_shape:  3.062389253805982
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:02:34
+batch_size:  16
+MFU:  0.05637478138542692
+FLOPS_shape:  4.656556942436263
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:02:34
+batch_size:  32
+MFU:  0.13146035740836537
+FLOPS_shape:  10.858625521930978
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:02:34
+batch_size:  64
+MFU:  0.25596398435374157
+FLOPS_shape:  21.142625107619054
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:02:34
+batch_size:  128
+MFU:  0.3878680762832678
+FLOPS_shape:  32.037903100997916
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:02:35
+batch_size:  256
+MFU:  0.4208942146264304
+FLOPS_shape:  34.76586212814315
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:02:35
+batch_size:  512
+MFU:  0.43921574761674625
+FLOPS_shape:  36.279220753143235
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:02:37
+batch_size:  1024
+MFU:  0.4321046281034967
+FLOPS_shape:  35.691842281348826
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:02:39
+batch_size:  2048
+MFU:  0.5736164798142313
+FLOPS_shape:  47.380721232655496
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:02:43
+batch_size:  4096
+MFU:  0.6805919964640325
+FLOPS_shape:  56.21689890792908
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:02:50
+batch_size:  8192
+MFU:  0.6859273106330622
+FLOPS_shape:  56.65759585829094
+data_shape:  2240x2240
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:03:04
+batch_size:  16384
+MFU:  0.7627280623642129
+FLOPS_shape:  63.00133795128398
+data_shape:  2240x2240
+done
+start
+shape: 2432x2432
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:03:05
+batch_size:  1
+MFU:  0.004750313106886482
+FLOPS_shape:  0.3923758626288234
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:03:05
+batch_size:  2
+MFU:  0.007475627444439109
+FLOPS_shape:  0.6174868269106704
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:03:05
+batch_size:  4
+MFU:  0.018399033235765055
+FLOPS_shape:  1.5197601452741936
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:03:05
+batch_size:  8
+MFU:  0.03630629488375433
+FLOPS_shape:  2.998899957398107
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:03:06
+batch_size:  16
+MFU:  0.0732970832285029
+FLOPS_shape:  6.054339074674338
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:03:06
+batch_size:  32
+MFU:  0.14419395088802217
+FLOPS_shape:  11.91042034335063
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:03:06
+batch_size:  64
+MFU:  0.28442232660684336
+FLOPS_shape:  23.49328417772526
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:03:06
+batch_size:  128
+MFU:  0.41929898120389336
+FLOPS_shape:  34.63409584744159
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:03:07
+batch_size:  256
+MFU:  0.4586950623992779
+FLOPS_shape:  37.88821215418035
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:03:07
+batch_size:  512
+MFU:  0.45536128360764455
+FLOPS_shape:  37.61284202599144
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:03:09
+batch_size:  1024
+MFU:  0.48398644720244893
+FLOPS_shape:  39.97728053892228
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:03:11
+batch_size:  2048
+MFU:  0.6017495802500983
+FLOPS_shape:  49.70451532865811
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:03:16
+batch_size:  4096
+MFU:  0.7428406080242372
+FLOPS_shape:  61.35863422280199
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:03:24
+batch_size:  8192
+MFU:  0.747696183272678
+FLOPS_shape:  61.759704738323194
+data_shape:  2432x2432
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:03:40
+batch_size:  16384
+MFU:  0.7433823606319976
+FLOPS_shape:  61.403382988203
+data_shape:  2432x2432
+done
+start
+shape: 2560x2560
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:03:41
+batch_size:  1
+MFU:  0.0050446706362296135
+FLOPS_shape:  0.41668979455256605
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:03:41
+batch_size:  2
+MFU:  0.009531606004991923
+FLOPS_shape:  0.7873106560123329
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:03:41
+batch_size:  4
+MFU:  0.019037620874679296
+FLOPS_shape:  1.5725074842485098
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:03:41
+batch_size:  8
+MFU:  0.037802160747049195
+FLOPS_shape:  3.1224584777062634
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:03:42
+batch_size:  16
+MFU:  0.07887142775940514
+FLOPS_shape:  6.5147799329268645
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:03:42
+batch_size:  32
+MFU:  0.15605157531468966
+FLOPS_shape:  12.889860120993365
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:03:42
+batch_size:  64
+MFU:  0.30205709574556444
+FLOPS_shape:  24.949916108583622
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:03:42
+batch_size:  128
+MFU:  0.44183785574352846
+FLOPS_shape:  36.49580688441545
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:03:43
+batch_size:  256
+MFU:  0.4832450216298663
+FLOPS_shape:  39.916038786626956
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:03:44
+batch_size:  512
+MFU:  0.47397490075029347
+FLOPS_shape:  39.15032680197424
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:03:45
+batch_size:  1024
+MFU:  0.49411636275895804
+FLOPS_shape:  40.814011563889935
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:03:48
+batch_size:  2048
+MFU:  0.6466163098768392
+FLOPS_shape:  53.41050719582691
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:03:52
+batch_size:  4096
+MFU:  0.7685335099008526
+FLOPS_shape:  63.480867917810414
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:04:01
+batch_size:  8192
+MFU:  0.7874693077202551
+FLOPS_shape:  65.04496481769307
+data_shape:  2560x2560
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:04:18
+batch_size:  16384
+MFU:  0.7808005688171983
+FLOPS_shape:  64.49412698430058
+data_shape:  2560x2560
+done
+start
+shape: 2816x2816
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:04:19
+batch_size:  1
+MFU:  0.004629625040146745
+FLOPS_shape:  0.38240702831612117
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:04:19
+batch_size:  2
+MFU:  0.00930185547604094
+FLOPS_shape:  0.7683332623209816
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:04:19
+batch_size:  4
+MFU:  0.018632922770824022
+FLOPS_shape:  1.5390794208700642
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:04:20
+batch_size:  8
+MFU:  0.03734164913056463
+FLOPS_shape:  3.0844202181846385
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:04:20
+batch_size:  16
+MFU:  0.07451748675528815
+FLOPS_shape:  6.155144405986801
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:04:20
+batch_size:  32
+MFU:  0.10701025018691811
+FLOPS_shape:  8.839046665439435
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:04:21
+batch_size:  64
+MFU:  0.2460762006875197
+FLOPS_shape:  20.325894176789127
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:04:21
+batch_size:  128
+MFU:  0.48990286916868525
+FLOPS_shape:  40.4659769933334
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:04:21
+batch_size:  256
+MFU:  0.5331198892401176
+FLOPS_shape:  44.03570285123371
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:04:22
+batch_size:  512
+MFU:  0.5534189257314605
+FLOPS_shape:  45.71240326541863
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:04:24
+batch_size:  1024
+MFU:  0.5483502856450386
+FLOPS_shape:  45.29373359428019
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:04:27
+batch_size:  2048
+MFU:  0.7128353174191766
+FLOPS_shape:  58.88019721882398
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:04:33
+batch_size:  4096
+MFU:  0.7264724766498231
+FLOPS_shape:  60.00662657127538
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:04:44
+batch_size:  8192
+MFU:  0.7256205781233708
+FLOPS_shape:  59.93625975299042
+data_shape:  2816x2816
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:05:04
+batch_size:  16384
+MFU:  0.7931564629351255
+FLOPS_shape:  65.51472383844137
+data_shape:  2816x2816
+done
+start
+shape: 3072x3072
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:05:05
+batch_size:  1
+MFU:  0.004418876735398332
+FLOPS_shape:  0.3649992183439022
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:05:05
+batch_size:  2
+MFU:  0.010206635951893889
+FLOPS_shape:  0.8430681296264352
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:05:06
+batch_size:  4
+MFU:  0.020358416146807824
+FLOPS_shape:  1.681605173726326
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:05:06
+batch_size:  8
+MFU:  0.04043265539461544
+FLOPS_shape:  3.339737335595235
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:05:06
+batch_size:  16
+MFU:  0.08086244520290495
+FLOPS_shape:  6.679237973759948
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:05:07
+batch_size:  32
+MFU:  0.11885021644839461
+FLOPS_shape:  9.817027878637393
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:05:07
+batch_size:  64
+MFU:  0.27191971146295973
+FLOPS_shape:  22.460568166840474
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:05:07
+batch_size:  128
+MFU:  0.5338759758277419
+FLOPS_shape:  44.09815560337148
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:05:08
+batch_size:  256
+MFU:  0.5855749499898829
+FLOPS_shape:  48.368490869164326
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:05:09
+batch_size:  512
+MFU:  0.5470778843543853
+FLOPS_shape:  45.18863324767222
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:05:11
+batch_size:  1024
+MFU:  0.5912230354596179
+FLOPS_shape:  48.83502272896443
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:05:14
+batch_size:  2048
+MFU:  0.7905042798131119
+FLOPS_shape:  65.29565351256304
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:05:20
+batch_size:  4096
+MFU:  0.7703423268120216
+FLOPS_shape:  63.63027619467298
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:05:32
+batch_size:  8192
+MFU:  0.78208270279653
+FLOPS_shape:  64.60003125099338
+data_shape:  3072x3072
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:05:56
+batch_size:  16384
+MFU:  0.7905716301314704
+FLOPS_shape:  65.30121664885945
+data_shape:  3072x3072
+done
+start
+shape: 3328x3328
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:05:58
+batch_size:  1
+MFU:  0.004454105119721291
+FLOPS_shape:  0.3679090828889786
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:05:58
+batch_size:  2
+MFU:  0.00945960147982337
+FLOPS_shape:  0.7813630822334103
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:05:58
+batch_size:  4
+MFU:  0.01895113969116606
+FLOPS_shape:  1.5653641384903165
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:05:59
+batch_size:  8
+MFU:  0.032787344729816
+FLOPS_shape:  2.7082346746828017
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:05:59
+batch_size:  16
+MFU:  0.07521298608269471
+FLOPS_shape:  6.212592650430582
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:05:59
+batch_size:  32
+MFU:  0.1494779853365485
+FLOPS_shape:  12.346881588798905
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:06:00
+batch_size:  64
+MFU:  0.2945160584760243
+FLOPS_shape:  24.327026430119606
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:06:00
+batch_size:  128
+MFU:  0.5791072548687912
+FLOPS_shape:  47.83425925216215
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:06:01
+batch_size:  256
+MFU:  0.6391527917668857
+FLOPS_shape:  52.79402059994475
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:06:02
+batch_size:  512
+MFU:  0.654885912525747
+FLOPS_shape:  54.0935763746267
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:06:04
+batch_size:  1024
+MFU:  0.634114759648456
+FLOPS_shape:  52.377879146962464
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:06:08
+batch_size:  2048
+MFU:  0.6456321925814917
+FLOPS_shape:  53.32921910723121
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:06:16
+batch_size:  4096
+MFU:  0.7315637256491971
+FLOPS_shape:  60.427163738623676
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:06:31
+batch_size:  8192
+MFU:  0.7346046315527136
+FLOPS_shape:  60.67834256625414
+data_shape:  3328x3328
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:07:00
+batch_size:  16384
+MFU:  0.7947116902794426
+FLOPS_shape:  65.64318561708195
+data_shape:  3328x3328
+done
+start
+shape: 3712x3712
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:07:01
+batch_size:  1
+MFU:  0.00451449133972057
+FLOPS_shape:  0.3728969846609191
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:07:01
+batch_size:  2
+MFU:  0.010608201877052102
+FLOPS_shape:  0.8762374750445036
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:07:02
+batch_size:  4
+MFU:  0.018154673452033417
+FLOPS_shape:  1.4995760271379601
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:07:02
+batch_size:  8
+MFU:  0.04204561141905511
+FLOPS_shape:  3.4729675032139515
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:07:02
+batch_size:  16
+MFU:  0.08401794190837386
+FLOPS_shape:  6.9398820016316805
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:07:03
+batch_size:  32
+MFU:  0.16776071924512023
+FLOPS_shape:  13.85703540964693
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:07:03
+batch_size:  64
+MFU:  0.32834775367447366
+FLOPS_shape:  27.121524453511523
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:07:04
+batch_size:  128
+MFU:  0.5347024362427065
+FLOPS_shape:  44.166421233647554
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:07:04
+batch_size:  256
+MFU:  0.7114779001822809
+FLOPS_shape:  58.768074555056394
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:07:06
+batch_size:  512
+MFU:  0.7316281039011985
+FLOPS_shape:  60.43248138223899
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:07:08
+batch_size:  1024
+MFU:  0.7212093578570351
+FLOPS_shape:  59.57189295899109
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:07:13
+batch_size:  2048
+MFU:  0.7223604789806648
+FLOPS_shape:  59.66697556380291
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:07:23
+batch_size:  4096
+MFU:  0.7149480082089956
+FLOPS_shape:  59.054705478063035
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:07:42
+batch_size:  8192
+MFU:  0.7256105797445834
+FLOPS_shape:  59.93543388690259
+data_shape:  3712x3712
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:08:18
+batch_size:  16384
+MFU:  0.7736308970939062
+FLOPS_shape:  63.90191209995665
+data_shape:  3712x3712
+done
+start
+shape: 3840x3840
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:08:19
+batch_size:  1
+MFU:  0.0041091966554511845
+FLOPS_shape:  0.33941964374026784
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:08:20
+batch_size:  2
+MFU:  0.010801706464933175
+FLOPS_shape:  0.8922209540034802
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:08:20
+batch_size:  4
+MFU:  0.021932947180470494
+FLOPS_shape:  1.8116614371068627
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:08:20
+batch_size:  8
+MFU:  0.04346061060225208
+FLOPS_shape:  3.5898464357460216
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:08:21
+batch_size:  16
+MFU:  0.08675684784449014
+FLOPS_shape:  7.166115631954885
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:08:21
+batch_size:  32
+MFU:  0.15387950734124672
+FLOPS_shape:  12.710447306386978
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:08:22
+batch_size:  64
+MFU:  0.3392472457139744
+FLOPS_shape:  28.021822495974284
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:08:22
+batch_size:  128
+MFU:  0.6454548668476879
+FLOPS_shape:  53.31457200161902
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:08:23
+batch_size:  256
+MFU:  0.7232966881888445
+FLOPS_shape:  59.74430644439855
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:08:24
+batch_size:  512
+MFU:  0.7247386979105744
+FLOPS_shape:  59.86341644741344
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:08:27
+batch_size:  1024
+MFU:  0.7458541232184059
+FLOPS_shape:  61.60755057784033
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:08:32
+batch_size:  2048
+MFU:  0.7411828309389612
+FLOPS_shape:  61.22170183555819
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:08:42
+batch_size:  4096
+MFU:  0.7554300815186336
+FLOPS_shape:  62.398524733439125
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:09:01
+batch_size:  8192
+MFU:  0.744998087805537
+FLOPS_shape:  61.53684205273735
+data_shape:  3840x3840
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:09:39
+batch_size:  16384
+MFU:  0.797142595405457
+FLOPS_shape:  65.84397838049074
+data_shape:  3840x3840
+done
+start
+shape: 3968x3968
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:09:40
+batch_size:  1
+MFU:  0.004512548690803157
+FLOPS_shape:  0.37273652186034073
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:09:41
+batch_size:  2
+MFU:  0.009997457833092178
+FLOPS_shape:  0.8257900170134138
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:09:41
+batch_size:  4
+MFU:  0.022432360391480066
+FLOPS_shape:  1.8529129683362533
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:09:42
+batch_size:  8
+MFU:  0.0448675890803213
+FLOPS_shape:  3.7060628580345387
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:09:42
+batch_size:  16
+MFU:  0.08979816310857568
+FLOPS_shape:  7.4173282727683505
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:09:42
+batch_size:  32
+MFU:  0.17845445460687048
+FLOPS_shape:  14.7403379505275
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:09:43
+batch_size:  64
+MFU:  0.311920860298253
+FLOPS_shape:  25.764663060635694
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:09:43
+batch_size:  128
+MFU:  0.6609321463509891
+FLOPS_shape:  54.592995288591695
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:09:44
+batch_size:  256
+MFU:  0.7570356002871157
+FLOPS_shape:  62.531140583715754
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:09:45
+batch_size:  512
+MFU:  0.7285046070514736
+FLOPS_shape:  60.17448054245171
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:09:48
+batch_size:  1024
+MFU:  0.7721355201392561
+FLOPS_shape:  63.77839396350255
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:09:53
+batch_size:  2048
+MFU:  0.7662931546146455
+FLOPS_shape:  63.295814571169714
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:10:03
+batch_size:  4096
+MFU:  0.7744706771380901
+FLOPS_shape:  63.971277931606245
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:10:24
+batch_size:  8192
+MFU:  0.7747169099327081
+FLOPS_shape:  63.99161676044169
+data_shape:  3968x3968
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:11:05
+batch_size:  16384
+MFU:  0.7768523301705089
+FLOPS_shape:  64.16800247208403
+data_shape:  3968x3968
+done
+start
+shape: 4096x4096
+evaluating MFU and throughput
+batch_size: 1
+time:  2024-10-31 14:11:07
+batch_size:  1
+MFU:  0.004163910592574854
+FLOPS_shape:  0.3439390149466829
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 2
+time:  2024-10-31 14:11:07
+batch_size:  2
+MFU:  0.011631178421317353
+FLOPS_shape:  0.9607353376008133
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 4
+time:  2024-10-31 14:11:07
+batch_size:  4
+MFU:  0.023150212364066742
+FLOPS_shape:  1.9122075412719128
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 8
+time:  2024-10-31 14:11:08
+batch_size:  8
+MFU:  0.04601155150897457
+FLOPS_shape:  3.8005541546412993
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 16
+time:  2024-10-31 14:11:08
+batch_size:  16
+MFU:  0.0924343076806925
+FLOPS_shape:  7.6350738144251995
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 32
+time:  2024-10-31 14:11:09
+batch_size:  32
+MFU:  0.16334013483409204
+FLOPS_shape:  13.491895137296002
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 64
+time:  2024-10-31 14:11:09
+batch_size:  64
+MFU:  0.3603491296444978
+FLOPS_shape:  29.764838108635516
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 128
+time:  2024-10-31 14:11:10
+batch_size:  128
+MFU:  0.6691286284217811
+FLOPS_shape:  55.27002470763912
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 256
+time:  2024-10-31 14:11:10
+batch_size:  256
+MFU:  0.7632228792273822
+FLOPS_shape:  63.04220982418177
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 512
+time:  2024-10-31 14:11:12
+batch_size:  512
+MFU:  0.7329778614453492
+FLOPS_shape:  60.543971355385835
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 1024
+time:  2024-10-31 14:11:14
+batch_size:  1024
+MFU:  0.7965476160345136
+FLOPS_shape:  65.79483308445081
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 2048
+time:  2024-10-31 14:11:20
+batch_size:  2048
+MFU:  0.7804380223779972
+FLOPS_shape:  64.46418064842257
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 4096
+time:  2024-10-31 14:11:31
+batch_size:  4096
+MFU:  0.796845377602248
+FLOPS_shape:  65.81942818994568
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 8192
+time:  2024-10-31 14:11:52
+batch_size:  8192
+MFU:  0.7880655996313418
+FLOPS_shape:  65.09421852954883
+data_shape:  4096x4096
+evaluating MFU and throughput
+batch_size: 16384
+time:  2024-10-31 14:12:34
+batch_size:  16384
+MFU:  0.7992097416319376
+FLOPS_shape:  66.01472465879804
+data_shape:  4096x4096
+done

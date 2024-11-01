@@ -24,3 +24,7 @@ python gemm_eval.py --shape_row 3712 --shape_col 3712 --plot_mode True --output 
 python gemm_eval.py --shape_row 3840 --shape_col 3840 --plot_mode True --output shape_3840_fp32_info.txt >> $log_file
 python gemm_eval.py --shape_row 3968 --shape_col 3968 --plot_mode True --output shape_3968_fp32_info.txt >> $log_file
 python gemm_eval.py --shape_row 4096 --shape_col 4096 --plot_mode True --output shape_4096_fp32_info.txt >> $log_file
+
+
+# int8
+python gemm_eval.py --shape_row 512 --shape_col 512 --plot_mode True --output shape_512_int8_info.txt --data_type INT8

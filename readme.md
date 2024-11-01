@@ -23,3 +23,13 @@ python main_ddp_spawn.py --plot_mode True --output output_resnet.txt
 采用ddp launch的多卡测试非常慢，而且batch_size越大跑越慢
 
 采用ddp spawn的多卡测试速度正常
+
+
+# env 
+```bash
+conda create -n tensorrt python=3.9
+pip install torch torchvision
+pip install torch_tensorrt
+pip install "nvidia-modelopt[all]~=0.19.0"
+```
+

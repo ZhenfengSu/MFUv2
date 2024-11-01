@@ -30,28 +30,31 @@ def main(args):
     # 测试flops和params(一次推理，batch_size=1,单位为MACs)
     FLOPs, Params = flops_count(model_flops)
     for batch_size in batch_size_choice:
-        print("evaluating MFU and throughput")
-        print("batch_size: " + str(batch_size))
-        # 模拟推理的时间测试
-        time_list = model_inference_sim(model_inference, batch_size, args.data_type, device)
-        # 计算MFU和吞吐率
-        MFU, THROUGHPUT, FLOPS = mfu_throughput_FLOPS(FLOPs, batch_size, time_list, args.data_type, args.gpu_type)
-        with open('./output/' + args.output, 'a') as f:
-            if args.plot_mode:
-                f.write("batch_size: " + str(batch_size) + " MFU: " + str(MFU) + " THROUGHPUT: " + str(THROUGHPUT) + " FLOPS: " + str(FLOPS) + "\n")
-                f.write("time_list: " + str(time_list) + "\n")
-            else:
-                f.write("\n")
-                f.write("*"*30 + "\n")
-                f.write("batch_size: " + str(batch_size) + "\n")
-                f.write("FLOPs: " + str(FLOPs) + "\n")
-                f.write("Params: " + str(Params) + "\n")
-                f.write("MFU: " + str(MFU) + "\n")
-                f.write("THROUGHPUT: " + str(THROUGHPUT) + "\n")
-                f.write("FLOPS_model: " + str(FLOPS) + "\n")
-                f.write("time_list: " + str(time_list) + "\n")
-                f.write("*"*30 + "\n")
-                f.write("\n")
+        try:
+            print("evaluating MFU and throughput")
+            print("batch_size: " + str(batch_size))
+            # 模拟推理的时间测试
+            time_list = model_inference_sim(model_inference, batch_size, args.data_type, device)
+            # 计算MFU和吞吐率
+            MFU, THROUGHPUT, FLOPS = mfu_throughput_FLOPS(FLOPs, batch_size, time_list, args.data_type, args.gpu_type)
+            with open('./output/' + args.output, 'a') as f:
+                if args.plot_mode:
+                    f.write("batch_size: " + str(batch_size) + " MFU: " + str(MFU) + " THROUGHPUT: " + str(THROUGHPUT) + " FLOPS: " + str(FLOPS) + "\n")
+                    # f.write("time_list: " + str(time_list) + "\n")
+                else:
+                    f.write("\n")
+                    f.write("*"*30 + "\n")
+                    f.write("batch_size: " + str(batch_size) + "\n")
+                    f.write("FLOPs: " + str(FLOPs) + "\n")
+                    f.write("Params: " + str(Params) + "\n")
+                    f.write("MFU: " + str(MFU) + "\n")
+                    f.write("THROUGHPUT: " + str(THROUGHPUT) + "\n")
+                    f.write("FLOPS_model: " + str(FLOPS) + "\n")
+                    # f.write("time_list: " + str(time_list) + "\n")
+                    f.write("*"*30 + "\n")
+                    f.write("\n")
+        except Exception as e:
+            print(e)
     print("done")
     
 
