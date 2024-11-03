@@ -71,6 +71,8 @@ def get_model_quantization(model, data_type, batch_size, device):
                 inputs=[input_tensor],
                 enabled_precisions=enabled_precisions,
             )
+        model.to("cpu")
+        del training_dataloader, input_tensor
         
         return trt_model
 
