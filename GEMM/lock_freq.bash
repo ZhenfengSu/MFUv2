@@ -1,7 +1,8 @@
 #!/bin/bash  
 
-# 设置GPU频率限制范围  
-nvidia-smi -lgc 1215,1440  
+# 设置GPU频率限制范围 
+sudo nvidia-smi -pm 1 
+sudo nvidia-smi -lgc 2520
 
 # 输出文件路径  
 output_file="./txt/clock_info.txt"  

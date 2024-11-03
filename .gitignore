@@ -6,4 +6,8 @@ DDP_EVAL/tiny-imagenet-200/train/n01443537/images/n01443537_8.JPEG
 MFU/__pycache__/
 MFU4models/data/
 MFU4models/__pycache__/
-MFU4models/output/
+MFU4models/output_old/
+cpp_test/eval_gemm/output/
+GEMM/output_small/
+GEMM/output_with_torch_compile/
+GEMM/output/
