@@ -1,4 +1,4 @@
-from vision_model import create_model
+from models.vision_model import create_model
 import argparse
 from flops_count_model import flops_count, model_inference_sim, mfu_throughput_FLOPS
 import os
@@ -13,6 +13,7 @@ def get_args_parser():
     parser.add_argument("--data_type", type=str, default='FP32', help='data_type')
     parser.add_argument("--device", type=str, default='cuda', help='device')
     parser.add_argument("--plot_mode", type=bool, default=False, help='plot_mode')
+    parser.add_argument("--TF32", type=bool, default=False, help='TF32')
     args = parser.parse_args()
     return args
 
@@ -34,6 +35,9 @@ def main(args):
             print("evaluating MFU and throughput")
             print("batch_size: " + str(batch_size))
             # 模拟推理的时间测试
+            if args.TF32 and args.data_type == 'FP32':
+                torch.backends.cuda.matmul.allow_tf32 = True
+                torch.backends.cudnn.allow_tf32 = True
             time_list = model_inference_sim(model_inference, batch_size, args.data_type, device)
             # 计算MFU和吞吐率
             MFU, THROUGHPUT, FLOPS = mfu_throughput_FLOPS(FLOPs, batch_size, time_list, args.data_type, args.gpu_type)

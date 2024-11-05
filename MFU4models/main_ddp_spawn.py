@@ -1,4 +1,4 @@
-from vision_model import create_model
+from models.vision_model import create_model
 import argparse
 from flops_count_model import flops_count, mfu_throughput_FLOPS, get_model_quantization, DATA_TYPE2TORCH
 import os

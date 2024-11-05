@@ -3,9 +3,9 @@ import torch
 import time
 import torchvision.transforms as transforms
 import torchvision.datasets as datasets
-import modelopt.torch.quantization as mtq
-from modelopt.torch.quantization.utils import export_torch_mode
-import torch_tensorrt as torchtrt
+# import modelopt.torch.quantization as mtq
+# from modelopt.torch.quantization.utils import export_torch_mode
+# import torch_tensorrt as torchtrt
 from copy import deepcopy
 '''data type转换相关的代码'''
 GPU_FLOPS_MAP = {
